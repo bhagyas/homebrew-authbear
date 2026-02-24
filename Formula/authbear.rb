@@ -1,8 +1,8 @@
 class Authbear < Formula
   desc "CLI auth broker with keychain-backed credentials"
   homepage "https://github.com/bhagyas/authbear"
-  url "https://github.com/bhagyas/authbear/releases/download/v0.1.0/authbear_0.1.0_src.tar.gz"
-  sha256 "531c12d4cefd4f241379518f30338e71ed81f7514cbe1cc3cb33260167f22e25"
+  url "https://github.com/bhagyas/authbear/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "caac6db0a42eb3c8bf43b2399c4d95f6c5e4ff039f5ac3b325700cc2f7a6956f"
   license "NOASSERTION"
 
   depends_on "go" => :build
